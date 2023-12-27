@@ -20,6 +20,6 @@
     "vue-router": "^4.2.5"
   },
   "dependencies": {
-    "postcss-loader": "^7.3.3"
+    "postcss-loader": "^7.3.4"
   }
 }
