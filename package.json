@@ -20,6 +20,8 @@
     "vue-router": "^4.2.5"
   },
   "dependencies": {
-    "postcss-loader": "^7.3.4"
+    "postcss-loader": "^7.3.4",
+    "socket.io": "^4.7.2",
+    "socket.io-client": "^4.7.2"
   }
 }
