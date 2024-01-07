@@ -2,6 +2,7 @@
 import io from 'socket.io-client'
 import type { Socket } from 'socket.io-client'
 import AppHeader from '~/components/AppHeader.vue';
+import Features from '~/components/Features.vue';
 
 const formMessage = ref('there you go')
 const state = reactive({messages: []})
@@ -39,6 +40,7 @@ onUnmounted(() => {
 <template>
   <div>
       <AppHeader/>
+      <Features/>
     <ul>
       <li v-for="message of state.messages" :key="message">
         {{ message}}
